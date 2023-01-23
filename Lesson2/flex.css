@@ -1,68 +1,59 @@
 body {
     margin: 0;
+    padding: 0;
 }
 .father {
-    width: 100%;
-    height: 500px;
-    background: silver;
+    width: 600px;
+    height: 100vh;
+
     display: flex;
-    justify-content:space-around;
-    align-items: normal;
-    flex-direction:row;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    }
+.Widgets{
+    width: 100%;
+    height: 30%;
+    background:orchid;
+}
+
+    .mother {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
 
     }
 
-.mather {
-    background: chartreuse;
-    display: flex;
-    justify-content:center;
-    align-items:flex-start;
-    flex-direction:column;
+    .contact {
+        width: 100%;
+        height: 45%;
+        background:orchid;
+        display: flex;
 
-;
+    }
 
-     ;
+    .Widgets,.block,.contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:25px;
+        color: ghostwhite;
+    }
+    .block {
+        width: 30%;
+        height: 100%;
+        background: dodgerblue;
+
+    }
 
 
-}
-.box1 {
-    width: 99%;
-    height:150px;
-    background: chartreuse;
-    display: flex;
-    justify-content:center;
-    align-items: center;
 
 
-
-
-}
 
     
 
 
-.box {
-    width:32%;
-    height: 150px;
-    background: chartreuse;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ;
-
-}
-.box2 {
-    width: 99%;
-    height: 150px;
-    background: chartreuse;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0px;
-
-}
 
 
 
